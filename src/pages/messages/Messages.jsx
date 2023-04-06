@@ -36,61 +36,52 @@ export const Messages = () => {
           <tr className="active">
             <td>John Doe</td>
             <td>
-              {" "}
               <Link to="/message/123" className="link">
-                {message.substring(0, 100)}...{" "}
+                {message.substring(0, 100)}...
               </Link>
             </td>
             <td> 1 day ago </td>
             <td>
               <button>Mark as Read </button>
             </td>
-          </tr>{" "}
+          </tr>
           <tr>
             <td>John Doe</td>
             <td>
-              {" "}
               <Link to="/message/123" className="link">
-                {" "}
-                {message.substring(0, 100)}...{" "}
-              </Link>
-            </td>
-            <td> 1 day ago </td>
-          </tr>{" "}
-          <tr>
-            <td>John Doe</td>
-            <td>
-              {" "}
-              <Link to="/message/123" className="link">
-                {" "}
                 {message.substring(0, 100)}...
               </Link>
             </td>
             <td> 1 day ago </td>
-          </tr>{" "}
+          </tr>
           <tr>
             <td>John Doe</td>
             <td>
-              {" "}
               <Link to="/message/123" className="link">
-                {" "}
+                {message.substring(0, 100)}...
+              </Link>
+            </td>
+            <td> 1 day ago </td>
+          </tr>
+          <tr>
+            <td>John Doe</td>
+            <td>
+              <Link to="/message/123" className="link">
                 {message.substring(0, 100)}...
               </Link>
             </td>
             <td> 1 day ago </td>
             <td></td>
-          </tr>{" "}
+          </tr>
           <tr>
             <td>John Doe</td>
             <td>
-              {" "}
               <Link to="/message/123" className="link">
-                {" "}
                 {message.substring(0, 100)}...
               </Link>
             </td>
             <td> 1 day ago </td>
-          </tr>{" "}
+          </tr>
         </table>
       </div>
     </div>
