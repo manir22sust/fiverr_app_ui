@@ -46,7 +46,7 @@ export const Features = () => {
           </div>
         </div>
       </div>
-      <p> jjgjgd</p>
+
       <div className="features dark">
         <div className="container">
           <div className="item">
